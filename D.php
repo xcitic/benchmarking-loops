@@ -1,5 +1,4 @@
 #!/usr/bin/php
-
 <?php
 
 // inkluder filer som brukes i alle scripts.
