@@ -1,3 +1,4 @@
+PHP 7.2:
 A:
 PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/A.php on line 7
 
@@ -9,3 +10,15 @@ PHP Warning:  count(): Parameter must be an array or an object that implements C
 
 D:
 PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/D.php on line 8
+
+
+
+PHP 7.1:
+A: (no message)
+
+B: (new line)
+   PHP Warning:  Invalid argument supplied for foreach() in /home/sphinx/Vuezee/Schibsted/1/B.php on line 7
+
+C: (no message)
+
+D: (new line, no message)
