@@ -32,12 +32,12 @@ Gjenta hver loop 100 ganger for å få et bedre gjennomsnitt.
 --> Hver loop går gjennom 100 ganger og lagrer tidsbruk før det regnes ut et gjennomsnitt av tidsbruk.
 
 
-### RESULTS FOR TASK A
-# Millisecond time for execution
-SCRIPT A: 0.501982415
-SCRIPT B: 0.490373571
-SCRIPT C: 0.505210468
-SCRIPT D: 0.512553356
+# RESULTS FOR TASK A
+## Millisecond time for execution
+SCRIPT A: 0.501982415 <br>
+SCRIPT B: 0.490373571 <br>
+SCRIPT C: 0.505210468 <br>
+SCRIPT D: 0.512553356 <br>
 
 # RANKING
 1. SCRIPT B (~2.37% raskere enn A)
@@ -48,11 +48,30 @@ SCRIPT D: 0.512553356
 
 ## b) What will happen to the four loops if the dataset is empty $array = NULL;
 
-### RESULTS TASK B
-→ A: Warning: count(): Parameter must be an array or an object that implements Countable.
+# RESULTS TASK B
+##PHP 7.1
+```
+--> A: (no message)
 
-→ B: PHP Warning:  Invalid argument supplied for foreach().
+--> B: (new line)
+   PHP Warning:  Invalid argument supplied for foreach() in ...
 
-→ C: PHP Warning:  count(): Parameter must be an array or an object that implements Countable
+--> C: (no message)
 
-→ D: PHP Warning:  count(): Parameter must be an array or an object that implements Countable
+--> D: (new line, no message)
+```
+
+###PHP 7.2
+```
+A:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
+
+B:
+PHP Warning:  Invalid argument supplied for foreach() in ...
+
+C:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
+
+D:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
+```
