@@ -1,4 +1,4 @@
-PHP 7.2:
+## PHP 7.2:
 A:
 PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/A.php on line 7
 
@@ -13,7 +13,7 @@ PHP Warning:  count(): Parameter must be an array or an object that implements C
 
 
 
-PHP 7.1:
+## PHP 7.1:
 A: (no message)
 
 B: (new line)

@@ -9,11 +9,25 @@ Dette er script D:
  Bruker i gjennomsnitt 0.51114611148834 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
 
 ## ANDRE BENCHMARK ##
-Dette er script D: 
- Bruker i gjennomsnitt 0.51396059989929 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier 
-Dette er script C: 
- Bruker i gjennomsnitt 0.51290466547012 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier 
-Dette er script B: 
- Bruker i gjennomsnitt 0.50028508663177 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier 
-Dette er script A: 
- Bruker i gjennomsnitt 0.50330983400345 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier 
+Dette er script D:
+ Bruker i gjennomsnitt 0.51396059989929 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script C:
+ Bruker i gjennomsnitt 0.51290466547012 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script B:
+ Bruker i gjennomsnitt 0.50028508663177 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script A:
+ Bruker i gjennomsnitt 0.50330983400345 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+
+
+
+## GJENNOMSNITT
+SCRIPT A: 0.501982415
+SCRIPT B: 0.490373571
+SCRIPT C: 0.505210468
+SCRIPT D: 0.512553356
+
+## RANGERING
+1. SCRIPT B (~2.37% raskere enn A)
+2. SCRIPT A (~0.64% raskere enn C)
+3. SCRIPT C (~1.45% raskere enn D)
+4. SCRIPT D (~4.33% treigere enn B)
