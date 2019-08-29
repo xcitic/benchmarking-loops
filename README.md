@@ -16,7 +16,7 @@ NB! Husk at det er PHP 7.1 som skal brukes, pcen min er på PHP7.2, installer 7.
 
 
 
-## A) Please arrange the loops after how fast they will run under PHP 7.1. If the dataset $array has about 1000000 int elements.
+### A) Please arrange the loops after how fast they will run under PHP 7.1. If the dataset $array has about 1000000 int elements.
 
 Dette løser jeg ved å sette opp loopene i hvert sitt script. Teste dem med et lite dataset.
 Deretter generere en array med 1,000,000 int elementer, og kjøre en timer funksjon for å kalkulere tidsbruk.
@@ -32,12 +32,12 @@ Gjenta hver loop 100 ganger for å få et bedre gjennomsnitt.
 --> Hver loop går gjennom 100 ganger og lagrer tidsbruk før det regnes ut et gjennomsnitt av tidsbruk.
 
 
-# RESULTS FOR TASK A
+# RESULTS TASK A
 ## Millisecond time for execution
-SCRIPT A: 0.501982415 <br>
-SCRIPT B: 0.490373571 <br>
-SCRIPT C: 0.505210468 <br>
-SCRIPT D: 0.512553356 <br>
+SCRIPT A: 0.501982415 ms <br>
+SCRIPT B: 0.490373571 ms <br>
+SCRIPT C: 0.505210468 ms <br>
+SCRIPT D: 0.512553356 ms <br>
 
 # RANKING
 1. SCRIPT B (~2.37% raskere enn A)
@@ -46,10 +46,10 @@ SCRIPT D: 0.512553356 <br>
 4. SCRIPT D (~4.33% treigere enn B)
 
 
-## b) What will happen to the four loops if the dataset is empty $array = NULL;
+### b) What will happen to the four loops if the dataset is empty $array = NULL;
 
 # RESULTS TASK B
-##PHP 7.1
+### PHP 7.1
 ```
 --> A: (no message)
 
@@ -61,7 +61,7 @@ SCRIPT D: 0.512553356 <br>
 --> D: (new line, no message)
 ```
 
-###PHP 7.2
+### PHP 7.2
 ```
 A:
 PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
