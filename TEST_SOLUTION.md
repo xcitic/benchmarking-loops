@@ -18,17 +18,20 @@ NB! Husk at det er PHP 7.1 som skal brukes, pcen min er på PHP7.2, installer 7.
 
 
 
-## TODO
-A) Please arrange the loops after how fast they will run under PHP 7.1. If the dataset $array has about 1000000 int elements.
+# A) Please arrange the loops after how fast they will run under PHP 7.1. If the dataset $array has about 1000000 int elements.
 
-Dette løser jeg ved å lage et script for hver av funksjonene. Teste dem med et lite dataset.
-Så generere en array med 1,000,000 int elementer, og kjøre en timer for å teste tidsbruk.
-Gjenta scriptet 100 ganger for å teste benchmark resultatet.
+Dette løser jeg ved å sette opp loopene i hvert sitt script. Teste dem med et lite dataset.
+Deretter generere en array med 1,000,000 int elementer, og kjøre en timer funksjon for å kalkulere tidsbruk.
+Gjenta hver loop 100 ganger for å få et bedre gjennomsnitt.
 
-Before Benchmark.
+# Before Benchmark Assumptions:
 	1. Raskeste A
 	2. Enten C / D
 	3. Tregest B
+
+# Benchmark Prosess:
+--> 3 minutter pause mellom hvert script slik at CPU kan slappe av.
+--> Hver loop går gjennom 100 ganger og lagrer tidsbruk før det regnes ut et gjennomsnitt av tidsbruk.
 
 
 b) What will happen to the four loops if the dataset is empty $array = NULL;

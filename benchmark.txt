@@ -1,0 +1,8 @@
+Dette er script A: 
+ Bruker i gjennomsnitt 0.50065499544144 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script B:
+ Bruker i gjennomsnitt 0.4804620552063 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script C:
+ Bruker i gjennomsnitt 0.49751626968384 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
+Dette er script D:
+ Bruker i gjennomsnitt 0.51114611148834 millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier
