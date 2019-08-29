@@ -25,14 +25,19 @@ Dette løser jeg ved å lage et script for hver av funksjonene. Teste dem med et
 Så generere en array med 1,000,000 int elementer, og kjøre en timer for å teste tidsbruk.
 Gjenta scriptet 100 ganger for å teste benchmark resultatet.
 
-
+Before Benchmark.
+	1. Raskeste A
+	2. Enten C / D
+	3. Tregest B
 
 
 b) What will happen to the four loops if the dataset is empty $array = NULL;
 
-### Preliminary Results
-→ A: Throw notice: Undefined variable 
-	Warning: count(): Parameter must be an array or an object that implements Countable.
+### Results
+→ A: Warning: count(): Parameter must be an array or an object that implements Countable.
 
+→ B: PHP Warning:  Invalid argument supplied for foreach().
 
-→ B
+→ C: PHP Warning:  count(): Parameter must be an array or an object that implements Countable
+
+→ D: PHP Warning:  count(): Parameter must be an array or an object that implements Countable

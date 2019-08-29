@@ -1,0 +1,11 @@
+A:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/A.php on line 7
+
+B:
+PHP Warning:  Invalid argument supplied for foreach() in /home/sphinx/Vuezee/Schibsted/1/B.php on line 7
+
+C:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/C.php on line 6
+
+D:
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/D.php on line 8
