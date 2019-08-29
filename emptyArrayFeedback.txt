@@ -1,15 +1,15 @@
 ## PHP 7.2:
 A:
-PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/A.php on line 7
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
 
 B:
-PHP Warning:  Invalid argument supplied for foreach() in /home/sphinx/Vuezee/Schibsted/1/B.php on line 7
+PHP Warning:  Invalid argument supplied for foreach() in ...
 
 C:
-PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/C.php on line 6
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
 
 D:
-PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sphinx/Vuezee/Schibsted/1/D.php on line 8
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in ...
 
 
 
@@ -17,7 +17,7 @@ PHP Warning:  count(): Parameter must be an array or an object that implements C
 A: (no message)
 
 B: (new line)
-   PHP Warning:  Invalid argument supplied for foreach() in /home/sphinx/Vuezee/Schibsted/1/B.php on line 7
+   PHP Warning:  Invalid argument supplied for foreach() in ...
 
 C: (no message)
 
