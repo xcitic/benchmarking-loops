@@ -1,4 +1,0 @@
-Dette er script A: 
- Tidsbruk i millisekunder med 1mill array av int = 0.5643138885498Dette er script A: 
- Tidsbruk i millisekunder med 1mill array av int = 0.56007194519043Dette er script A: 
- Tidsbruk i millisekunder med 1mill array av int = 0.57314801216125

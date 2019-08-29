@@ -7,13 +7,13 @@ require('dataset.php');
 
 // array som holder resultater slik at jeg kan regne et gjennomsnitt.
 $resultater = array();
-// kjør gjennom 10,000 ganger for å generer et godt gjennomsnitt.
-$testset = 10000;
+// kjør gjennom 100 ganger for å generer et bedre gjennomsnitt.
+$testset = 100;
 
-// bind array til dataset
+// array er lik dataset på 1 mill integers
 $array = $dataset;
 
-for($i = 0; $i < $testset; $i++) {
+for($n = 0; $n < $testset; $n++) {
   // start timer
   $timer = new Timer();
   $timer->start();
@@ -27,13 +27,20 @@ for($i = 0; $i < $testset; $i++) {
   // avslutt timer og regn ut tidsbruk
   $timer->end();
   $spent = $timer->spent();
+  // legg til tidsbruk i resultat
+  $resultater[] = $spent;
 }
 
+// regn ut gjennomsnitt av tidsbruk
+$snitt = array_sum($resultater) / count($resultater);
+
+
+
 // generer output
-$output = "Dette er script A: \n Tidsbruk i millisekunder med 1mill array av int = $spent \n";
+$output = "Dette er script A: \n Bruker i gjennomsnitt $snitt millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier \n";
 
 // lagre output til en fil med append mode
-$f = fopen('benchmark_a.txt','a');
+$f = fopen('benchmark.txt','a');
 fwrite($f, $output);
 fclose($f);
 
