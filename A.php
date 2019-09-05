@@ -3,24 +3,31 @@
 
 // inkluder filer som brukes i alle scripts.
 require('timer.php');
-require('dataset.php');
+// Generer output
+require('output_helper.php');
 
-// array som holder resultater slik at jeg kan regne et gjennomsnitt.
+
+// how many times to loop the tests with the dataset
+$testsize = readline('Input Testset size:');
+// what do you want to save the output as?
+$testnavn = readline('Test name:');
+
 $resultater = array();
-// kjør gjennom 100 ganger for å generer et bedre gjennomsnitt.
-$testset = 100;
 
-// array er lik dataset på 1 mill integers
-$array = $dataset;
+$array = range(0,999999);
 
-for($n = 0; $n < $testset; $n++) {
+// string dataset
+// $string = str_repeat('string to test', 99);
+
+// Instanciate before loop.
+$timer = new Timer();
+
+for($n = 0; $n < $testsize; $n++) {
   // start timer
-  $timer = new Timer();
   $timer->start();
 
-
   $ant = count($array);
-  for($i = 0; $i<$ant; $i++) {
+  for($i = 0 ; $i<$ant; $i++){
     echo "[".$array[$i]."]";
   }
 
@@ -29,20 +36,13 @@ for($n = 0; $n < $testset; $n++) {
   $spent = $timer->spent();
   // legg til tidsbruk i resultat
   $resultater[] = $spent;
-}
 
+}
+$memory = memory_get_usage();
 // regn ut gjennomsnitt av tidsbruk
 $snitt = array_sum($resultater) / count($resultater);
 
-
-
-// generer output
-$output = "Dette er script A: \n Bruker i gjennomsnitt $snitt millisekunder på å iterere gjennom et dataset av type array med 1 millioner integer verdier \n";
-
-// lagre output til en fil med append mode
-$f = fopen('benchmark.txt','a');
-fwrite($f, $output);
-fclose($f);
-
+$output = new out_put_helper($snitt, $testsize, $testnavn, $memory);
+$output->save();
 
 ?>

@@ -1,0 +1,38 @@
+Dette er orginal script B:
+ Bruker i gjennomsnitt 0.5046169757843 millisekunder på å iterere.
+ Hele scriptet bruker 0.50462293624878
+
+ Dette er orginal script B:
+ Bruker i gjennomsnitt 0.51673889160156 millisekunder på å iterere.
+ Hele scriptet bruker 0.52701282501221
+
+Dette er orginal script B:
+ Bruker i gjennomsnitt 0.51120805740356 millisekunder på å iterere.
+ Hele scriptet bruker 0.51121687889099
+
+ Dette er orginal script B: 
+ Bruker i gjennomsnitt 0.50757193565369 millisekunder på å iterere.
+ Hele scriptet bruker 0.50758385658264
+
+Dette er orginal script B:
+ Bruker i gjennomsnitt 0.51838898658752 millisekunder på å iterere.
+ Hele scriptet bruker 0.51839518547058
+
+Dette er orginal script B:
+ Bruker i gjennomsnitt 0.51392698287964 millisekunder på å iterere.
+ Hele scriptet bruker 0.5139331817627
+Dette er orginal script B: 
+ Bruker i gjennomsnitt 0.51391005516052 millisekunder på å iterere.
+ Hele scriptet bruker 0.51391696929932 
+Dette er orginal script B: 
+ Bruker i gjennomsnitt 1.8887410163879 millisekunder på å iterere.
+ Hele scriptet bruker 1.8887541294098 
+Dette er orginal script B: 
+ Bruker i gjennomsnitt 1.8781390190125 millisekunder på å iterere.
+ Hele scriptet bruker 1.8781461715698 
+Dette er orginal script B: 
+ Bruker i gjennomsnitt 1.9186840057373 millisekunder på å iterere.
+ Hele scriptet bruker 1.9186909198761 
+Dette er orginal script B: 
+ Bruker i gjennomsnitt 1.9058032035828 millisekunder på å iterere.
+ Hele scriptet bruker 1.9058101177216 
